@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliver </title>
+
+    <!-- External Links -->
+    <link rel="stylesheet" href="home.css">
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbarBox container-fluid px-4">
+        <div class="logo">
+            <img src="Deliver.png" alt="logo">
+        </div>
+
+        <!-- navlinks -->
+        <div class="navLinkBox">
+            <ul class="navlinks">
+                <!-- menu & hide -->
+                <div class="menu">
+                    <span>Menu</span>
+                    
+                    <div class="hideMenu">
+                        <img src="hide.png" class="hide" alt="">
+                    </div>
+                </div>
+
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="dropLinks"><a href="#">Pages</a> <img src="drop-nav.png" width="20" alt="">
+                    <ul class="dropNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="trend.html">Trend</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </li>
+
+                <!-- Login NavLinks -->
+                <div class="loginNavLinks">
+                    <div class="login">
+                        <span>Login</span>
+                    </div>
+                
+                    <div class="sign">
+                        <button class="btn btn-dark rounded-5 py-2 px-3">Sign up</button>
+                    </div>
+                </div>
+            </ul>
+
+            <!-- login & sign-up -->
+            <div class="signBox">
+                <div class="login">
+                    <span>Login</span>
+                </div>
+
+                <div class="sign">
+                    <button class="btn btn-dark rounded-5 py-2 px-3">Sign up</button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- show menu -->
+        <div class="showMenu">
+            <img src="show.png" class="show" alt="">
+        </div>
+    </div>
+
+    <!-- Trends -->
+
+    <div class="trends container">
+        <div class="trend-box">
+            <span><a href="index.html">Home</a> /</span>
+            <span>Trend</span>
+        </div>
+    
+        <h1>Ipsum dolor sit <br> amet consectetur <br> adipisicing elit dolor.</h1>
+    </div>
+
+    <!-- trend-texts -->
+
+    <div class="trend-texts container">
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, recusandae. Unde tempora accusantium quia nihil reiciendis non voluptatem itaque illo ex.</blockquote>
+        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi esse facilis doloribus! Quisquam amet, adipisci aspernatur cupiditate dignissimos qui fuga animi voluptate optio quod blanditiis ea ipsa quos necessitatibus. A voluptas commodi facere illum.</blockquote>
+        <blockquote>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa natus suscipit molestias! Recusandae sed, corrupti quae quos eligendi repudiandae libero aliquid error deleniti ad sit eveniet placeat assumenda dicta cumque! Alias dolorem laudantium cumque totam, quae recusandae. Enim rem omnis, repellat autem iusto soluta voluptatibus.</blockquote>
+
+        <!-- comments box -->
+        <div class="comments-box">
+            <span id="comment" style="font-weight: 500;">Comments</span>
+
+            <div class="user-box-field" id="comment-box">
+                <!-- user box -->
+                <div class="user-box">
+                    <div class="img">
+                        <img src="person2.png" width="50" alt="photo">
+                    </div>
+
+                    <div class="user-info">
+                        <div class="user-name">
+                            <span class="name">Karl Walter</span>
+                            <span class="date">Sep 22, 2023</span>
+                            <span class="reply"><i class="fa fa-reply"></i> Reply</span>
+                        </div>
+
+                        <div class="user-text">
+                            <p class="text">Necessitatibus soluta deserunt temporibus, magni fuga quas esse hic maiores ipsam sint illum distinctio beatae laudantium aspernatur neque molestiae vitae.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-box">
+                    <div class="img">
+                        <img src="person1.png" width="50" alt="photo">
+                    </div>
+
+                    <div class="user-info">
+                        <div class="user-name">
+                            <span class="name">Ramen Maggie</span>
+                            <span class="date">Sep 22, 2023</span>
+                            <span class="reply"><i class="fa fa-reply"></i> Reply</span>
+                        </div>
+
+                        <div class="user-text">
+                            <p class="text">Temporibus, magni fuga quas esse hic maiores ipsam sint illum distinctio beatae laudantium aspernatur neque molestiae vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- leave comment -->
+            <div class="leave-comment" style="font-size: 24px; font-weight: 500;">
+                <span>Leave a Comment</span>
+
+                <div class="address">
+                    <input class="form-control" type="text" placeholder="Your full name" id="username" required>
+                    <input class="form-control" type="email"  placeholder="Email-Address" id="email"  required>
+                </div>
+
+                <textarea class="form-control" cols="30" rows="6" placeholder="Write your comment here" id="message" required></textarea>
+
+                <div class="text-start">
+                    <button class="btn btn-dark py-2 px-5 rounded-5" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- page links -->
+
+     <div class="page container-fluid">
+        <!-- page box -->
+        <div class="page-box container">
+            <div class="links">
+                <span>Shipping Information</span>
+
+                <p>Shipping to United State</p>
+                <p>Shipping to The Netherlands</p>
+                <p>Shipping to United Kingdom</p>
+                <p>Shipping to Spain</p>
+                <p>Shipping to Germany</p>
+            </div>
+
+            <div class="links">
+                <span>Knowledge Hub</span>
+
+                <p>Logistics Know How</p>
+                <p>Logistics News</p>
+                <p>Local Solution</p>
+                <p>Logistics Trends & Events</p>
+                <p>Customer Stories</p>
+            </div>
+
+            <div class="links">
+                <span>Useful Links</span>
+
+                <p>Contact</p>
+                <p>Services</p>
+                <p>Terms and Conditions</p>
+                <p>Why Us</p>
+                <p>Careers</p>
+            </div>
+
+            <div class="links">
+                <span>Contact</span>
+
+                <p>Company Headquater</p>
+                <p>United State of America</p>
+                <p>New York 10</p>
+                <p>deliver@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer container-fluid">
+        <div class="footer-page container">
+            <span>&copy; 2023 Deliver. All right reserved</span>
+
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // scroll navbar 
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbarBox');
+            navbar.classList.toggle('stick', scrollY > 0);
+        });
+
+        // show & Hide Menu
+        var showMenu = document.querySelector('.showMenu');
+        var hideMenu = document.querySelector('.hideMenu');
+        var navLinkBox = document.querySelector('.navLinkBox');
+        var navlinks = document.querySelector('.navlinks');
+
+        showMenu.addEventListener('click', function() {
+            if(showMenu) {
+                navLinkBox.classList.add('navBoxActive');
+                navlinks.classList.add('showNav');
+            }
+        });
+
+        hideMenu.addEventListener('click', function() {
+            if(hideMenu) {
+                navLinkBox.classList.remove('navBoxActive');
+                navlinks.classList.remove('showNav');
+            }
+        });
+
+        // Comment
+        var submit = document.getElementById('submit');
+        var username = document.getElementById('username');
+        var message = document.getElementById('message');
+        var userInput = document.getElementById('username');
+        var email = document.getElementById('email');
+        var commentBox = document.getElementById('comment-box');
+
+        submit.addEventListener('click', function() {
+            var images = ['person2.png', 'person1.png'];
+            var randomImage = Math.floor( Math.random() * images.length );
+            
+            var userBox = document.createElement('div');
+            userBox.classList.add('user-box');
+
+            // user image
+            var imgBox = document.createElement('div');
+            var img = document.createElement('img');
+            imgBox.classList.add('img');
+            img.setAttribute('src', `${images[randomImage]}`);
+            img.setAttribute('width', '50');
+            imgBox.appendChild(img);
+            userBox.appendChild(imgBox);
+
+            // user info
+            var userInfo = document.createElement('div');
+            var userName = document.createElement('div');
+            userInfo.classList.add('user-info');
+            userName.classList.add('user-name');
+            
+            // user name
+            var span1 = document.createElement('span');
+            var span2 = document.createElement('span');
+            var span3 = document.createElement('span');
+            span1.innerText = userInput.value;
+            span1.classList.add('name');
+            span2.innerText = 'Sep 23, 2023';
+            span2.classList.add('date');
+            span3.innerHTML = '<i class="fa fa-reply"></i> Reply';
+            span3.classList.add('reply');
+
+            userName.appendChild(span1);
+            userName.appendChild(span2);
+            userName.appendChild(span3);
+            userInfo.appendChild(userName);
+
+            // user text 
+            var userText = document.createElement('div');
+            userText.classList.add('user-text');
+
+            var text = document.createElement('p');
+            text.innerText = message.value;
+            userText.appendChild(text);
+            userInfo.appendChild(userText);
+            
+            
+            if(userInput.value == '') {
+                alert('Please fill in the form');
+            }else if (email.value == '') {
+                alert('Please fill in the form');
+            }else if (message.value == '') {
+                alert('Please fill in the form');
+            }else {
+                userBox.appendChild(userInfo);
+                commentBox.appendChild(userBox);
+
+                userInput.value = '';
+                email.value = '';
+                message.value = '';
+            }
+
+        });
+
+
+
+    </script>
+
+</body>
+</html>
